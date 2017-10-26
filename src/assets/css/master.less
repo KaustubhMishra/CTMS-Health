@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+/* #Font Face
+================================================== */
+@font-face {
+    font-family: 'robotoregular';
+    src: url('fonts/roboto-regular.eot');
+    src: url('fonts/roboto-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto-regular.woff2') format('woff2'),
+         url('fonts/roboto-regular.woff') format('woff'),
+         url('fonts/roboto-regular.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotobold';
+    src: url('fonts/roboto-bold.eot');
+    src: url('fonts/roboto-bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto-bold.woff2') format('woff2'),
+         url('fonts/roboto-bold.woff') format('woff'),
+         url('fonts/roboto-bold.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotolight';
+    src: url('fonts/roboto-light.eot');
+    src: url('fonts/roboto-light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto-light.woff2') format('woff2'),
+         url('fonts/roboto-light.woff') format('woff'),
+         url('fonts/roboto-light.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* #Reset & Basics
+================================================== */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%; vertical-align: baseline;}
+
+table, tbody, tfoot, thead, tr, th, td{	margin: 0;	padding: 0;	border: 0;	font-size: 100%; font:inherit;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body{line-height: 1;}
+ol, ul{list-style: none;}
+table{border-collapse:collapse;border-spacing:0;}
+.radio, .checkbox{margin-top:inherit;}
+/* #Basic Styles
+================================================== */
+html{font-size:100%;height:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+body {
+	-webkit-touch-callout:none;-webkit-text-size-adjust:none;color:#888888;height:100%;
+	font:normal 14px/18px 'robotoregular'; background:#eef1f5;letter-spacing:0;position:relative;padding:68px 0 0 0;
+}
+body form {height:100%;}
+img{border:0px; vertical-align:top;}
+.container{position:relative;}
+/* #Typography
+================================================== */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {font-weight: inherit; }
+h2{font:normal 43px 'robotoregular';color:#000000;}
+p {line-height:1;}
+p img {margin: 0;}
+/* #Links
+================================================== */
+a, a:visited {color:#2d3e50;text-decoration:underline;outline: 0;-webkit-transition: all 0.2s;-moz-transition: all 0.2s;-o-transition: all 0.2s;transition: all 0.2s;}
+a:hover, a:focus{color:#27b7ee; text-decoration: none;outline: 0;-webkit-transition: all 0.2s;-moz-transition: all 0.2s;-o-transition: all 0.2s;transition: all 0.2s;}
+p a, p a:visited{line-height:inherit;outline:0;}
+.uppercase{text-transform:uppercase;}
+/* #Clearing
+================================================== */
+.clearfix:before, .clearfix:after{content: '\0020';	display: block;	overflow: hidden; visibility: hidden; width: 0;	height: 0;}
+.clearfix:after {clear: both;}
+.clearfix {zoom: 1;}
+.ie7 .clearfix {clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0;}
+.clear {clear: both; display: block; overflow: hidden; visibility: hidden;	width: 0; height: 0;}
+/* #commen Styles
+================================================== */
+header{position:fixed;top:0;left:0;width:100%;background-color:#ffffff;min-height:68px;z-index:5;}
+.container-wrap{position:relative;padding:0 0 0 180px;}
+.container-wrap aside{width:180px;position:fixed;top:68px;left:0;height:100%;background-color:#2d3e50;z-index:4;}
+
+/****/
+.nav-icon{width:68px;height:68px;background-color:#27b7ee;display:block;text-align:center;}
+.nav-icon img{padding-top:25px;}
